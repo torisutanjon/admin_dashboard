@@ -3,7 +3,7 @@ import { settings_gear } from "../../assets";
 
 const Settings = () => {
   return (
-    <Box as="button" marginRight="1.25em" h="16px" w="16px" px={0} py={0}>
+    <Box as="button" marginRight="1.25em" h="14px" w="14px" px={0} py={0}>
       <Flex alignItems="center" justifyContent="center">
         <Image src={settings_gear} alt="" boxSize="100%" objectFit="cover" />
       </Flex>
