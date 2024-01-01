@@ -8,7 +8,7 @@ const SideNavList = () => {
   const onClickHandler = (index: number) => {
     if (index === 0) return;
     if (index === 4) return;
-    if (index === 12) return;
+    if (index === 11) return;
     setCurrentIndex(index);
   };
 
@@ -20,7 +20,7 @@ const SideNavList = () => {
   };
 
   return (
-    <Box h="100%" w="75%" position="absolute" zIndex="2" right="0">
+    <Box h="100%" w="85%" position="absolute" zIndex="2" right="0">
       <Box h="10%" w="100%" bg="myColors.main"></Box>
       {Array.from({ length: 13 }).map((_, index) => {
         const image = imageMap.get(index);
@@ -36,14 +36,19 @@ const SideNavList = () => {
             justifyContent="center"
             onClick={() => onClickHandler(index)}
           >
-            <Box h="50%" w="50%">
+            <Flex
+              h="1.15rem"
+              w="1.15rem"
+              alignItems="center"
+              justifyContent="center"
+            >
               {image && (
                 <Image
                   src={currentIndex === index ? image[0] : image[1]}
                   alt=""
                 />
               )}
-            </Box>
+            </Flex>
           </Flex>
         );
       })}

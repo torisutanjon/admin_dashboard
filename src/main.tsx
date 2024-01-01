@@ -12,7 +12,9 @@ const colors = {
   },
 };
 
-const extendedTheme = extendTheme({ colors });
+const extendedTheme = extendTheme({
+  colors,
+});
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>

@@ -1,3 +1,9 @@
 export { default as SideNav } from "./SideNav";
 export { default as MainContainer } from "./MainContainer";
 export { default as TopNav } from "./TopNav";
+export { default as Banner } from "./Banner";
+export { default as EmployeeContainer } from "./EmployeeContainer";
+export { default as MonthlyStats } from "./MonthlyStats";
+export { default as Graph } from "./Graph";
+export { default as DailySales } from "./DailySales";
+export { default as TopStats } from "./TopStats";

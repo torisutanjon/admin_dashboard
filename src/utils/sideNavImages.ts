@@ -1,14 +1,13 @@
-import * as icons from "../assets";
 const imageMap = new Map([
-  [1, [icons.dashboard_dark, icons.dashboard_light]],
-  [2, [icons.sales_report_dark, icons.sales_report_light]],
-  [3, [icons.ecommerce_dark, icons.ecommerce_light]],
-  [5, [icons.widget_dark, icons.widget_light]],
-  [6, [icons.mail_dark, icons.mail_light]],
-  [7, [icons.tables_dark, icons.tables_light]],
-  [8, [icons.maps_dark, icons.maps_light]],
-  [9, [icons.icons_dark, icons.icons_light]],
-  [10, [icons.moreapps_dark, icons.moreapps_light]],
+  [1, ["images/dashboard-dark.png", "images/dashboard-light.png"]],
+  [2, ["images/sales-report-dark.png", "images/sales-report-light.png"]],
+  [3, ["images/e-commerce-dark.png", "images/e-commerce-light.png"]],
+  [5, ["images/widgets-dark.png", "images/widgets-light.png"]],
+  [6, ["images/mail_dark.png", "images/mail_light.png"]],
+  [7, ["images/tables-dark.png", "images/tables-light.png"]],
+  [8, ["images/maps-dark.png", "images/maps-light.png"]],
+  [9, ["images/icons_dark.png", "images/icons-light.png"]],
+  [10, ["images/more-apps-dark.png", "images/more-apps-light.png"]],
 ]);
 
 export default imageMap;
